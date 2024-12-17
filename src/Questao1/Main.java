@@ -34,6 +34,7 @@ public class Main {
 
             System.out.println("Digite 'sim' para cadastrar outro funcionário.");
             resposta = scanner.nextLine();
+            scanner.close();
         } while (resposta.equalsIgnoreCase("sim"));
     }
 }
